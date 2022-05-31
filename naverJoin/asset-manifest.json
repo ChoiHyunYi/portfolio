@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ChoiHyunYi/portfolio/static/css/main.56f2d377.css",
+    "main.js": "/ChoiHyunYi/portfolio/static/js/main.e76059f1.js",
+    "static/media/pc_sp_login_190522.png": "/ChoiHyunYi/portfolio/static/media/pc_sp_login_190522.d29725df95f09698f814.png",
+    "static/media/m_naver_logo_20191126.png": "/ChoiHyunYi/portfolio/static/media/m_naver_logo_20191126.cc85622c31bdd57f7ab8.png",
+    "index.html": "/ChoiHyunYi/portfolio/index.html",
+    "main.56f2d377.css.map": "/ChoiHyunYi/portfolio/static/css/main.56f2d377.css.map",
+    "main.e76059f1.js.map": "/ChoiHyunYi/portfolio/static/js/main.e76059f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56f2d377.css",
+    "static/js/main.e76059f1.js"
+  ]
+}
