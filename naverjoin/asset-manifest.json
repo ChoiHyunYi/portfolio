@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/naverjoin/static/css/main.29c9fc77.css",
+    "main.js": "/portfolio/naverjoin/static/js/main.04625fe3.js",
+    "static/media/pc_sp_login_190522.png": "/portfolio/naverjoin/static/media/pc_sp_login_190522.d29725df95f09698f814.png",
+    "static/media/m_naver_logo_20191126.png": "/portfolio/naverjoin/static/media/m_naver_logo_20191126.cc85622c31bdd57f7ab8.png",
+    "index.html": "/portfolio/naverjoin/index.html",
+    "main.29c9fc77.css.map": "/portfolio/naverjoin/static/css/main.29c9fc77.css.map",
+    "main.04625fe3.js.map": "/portfolio/naverjoin/static/js/main.04625fe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29c9fc77.css",
+    "static/js/main.04625fe3.js"
+  ]
+}
