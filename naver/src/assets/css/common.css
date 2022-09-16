@@ -1,0 +1,385 @@
+/*
+* @filename : common.css
+* @author   : 최현이 (hyun22378@gmail.com)
+* @description : html 파일을 기반으로 ui 디자인 및 제작
+*/
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 510px;
+    min-width: 460px;
+}
+
+html {
+    background-color: rgb(245, 245, 245);
+}
+
+h3 {
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+form {
+    -webkit-text-size-adjust: none;
+}
+
+/* 로고 */
+#header {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0 54px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 768px;
+    min-width: 460px;
+}
+
+#header.membership {
+    padding-bottom: 20px;
+}
+
+#header .m_logo {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 55px;
+    background-image: url(../img/m_naver_logo_20191126.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 260px auto;
+    color: transparent;
+}
+
+/* 아이디 */
+.group_row {
+    margin-top: 50px;
+}
+
+.box {
+    cursor: pointer;
+    position: relative;
+    height: 51px;
+    border: solid 1px #dadada;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.join_content {
+    margin-top: -50px;
+}
+#naver_join.group_row {
+    overflow: hidden;
+    width: 100%;
+}
+
+.join_tit {
+    margin: 19px 0 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.box.id_v {
+    background: #fff;
+    outline-color: #fff;
+    padding-right: 110px;
+}
+
+.field {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+span.step_url {
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8e8e8e;
+}
+
+.box, .box_disable {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 110px 10px 14px;
+    box-sizing: border-box;
+    /* vertical-align: top; */
+    background: #fff;
+}
+
+
+/* 비번 */
+.box.int_pw, .box.int_pw_check {
+    padding-right: 40px;
+}
+
+.box.int_pw:after, .box.int_pw_check:after {
+    background-position: 0 0;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    background-image: url(../img/m_icon_pw_step.png);
+    background-repeat: no-repeat;
+    background-size: 125px 75px;
+    cursor: pointer;
+}
+
+.box.int_pw_check:after {
+    background-position: -27px 0;
+}
+
+
+
+/* 이름 */
+.box_o {
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+
+/* 생년월일 */
+.join_bth {
+    padding: 0;
+}
+
+.bth_wrap {
+    display: table;
+    width: 100%;
+}
+
+.join_bth.box {
+    padding: 11px 14px;
+}
+
+:root .sel {
+    background: #fff url(../img/sel_arr_2x.gif) 100% 50% no-repeat;
+    background-size: 20px 8px;
+}
+
+.sel {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    border: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+span.box {
+    padding: 11px 14px;
+}
+
+.bth_mm, .bth_dd {
+    padding-left: 10px;
+}
+
+.bth_mm, .bth_dd, .bth_yy {
+    display: table-cell;
+    table-layout: fixed;
+    width: 147px;
+    vertical-align: middle;
+}
+
+
+/* 성별 */
+.join_gen .gender_opt {
+    display: block;
+    width: 100%;
+    padding-right: 7px;
+    box-sizing: border-box;
+}
+
+select {
+    outline: 0;
+    text-decoration: none;
+}
+
+
+/* 이메일 */
+.join_email .choice {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.choice {
+    color: #8e8e8e;
+}
+
+
+/* 휴대전화 */
+.join_phone {
+    margin-top: 38px;
+    position: relative;
+    overflow: hidden;
+}
+
+.join_phone .country {
+    display: block;
+    width: 100%;
+    padding-right: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.join_phone .int_mobile {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px 10px 14px;
+    vertical-align: top;
+}
+
+.join_phone .int_mobile_area .btn_verify {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 115px;
+    height: 51px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 17px 0 17px;
+}
+
+.btn_verify {
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: solid 1px rgba(0, 0, 0, .08);
+    background-color: #03c75a;
+}
+
+.join_phone .int_mobile_area {
+    position: relative;
+    margin-top: 10px;
+    padding: 0 125px 0 0;
+}
+
+.join_phone .box_disable {
+    background: #f7f7f7;
+}
+
+.int_mobile_area, .box_disable {
+    margin-top: 10px;
+}
+
+.blind_re {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+
+/* 인증번호, 가입하기 버튼 */
+.btn_primary {
+    color: #fff;
+    border: solid 1px rgba(0, 0, 0, .08);
+    background-color: #03c75a;
+}
+
+
+/* 가입하기 */
+.btn_type {
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+
+/* 푸터 */
+#footer {
+    margin: 0 auto;
+    max-width: 768px;
+    min-width: 460px;
+    clear: both;
+    padding: 30px 0 15px 0;
+    text-align: center;
+}
+
+#footer ul {
+    margin-top: 18px;
+}
+
+#footer * {
+    font-size: 14px;
+    line-height: normal;
+    list-style: none;
+    color: #333;
+}
+
+#footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#footer ul li {
+    white-space: nowrap;
+    position: relative;
+    display: inline;
+    padding: 0 3px 0 7px;
+    background: url(../img/bu_bar_2x.gif) left 50% no-repeat;
+    background-size: 1px 10px;
+}
+
+#footer li a {
+    padding-right: 3px;
+}
+
+#footer li:nth-child(2) {
+    font-weight: bold;
+}
+
+#footer ul li:first-child {
+    background: 0 0;
+}
+
+#footer address {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#footer address .logo {
+    position: relative;
+    display: inline-block;
+    width: 63px;
+    height: 12px;
+    background: url(../img/pc_sp_login_190522.png) no-repeat;
+    background-position: -242px 0;
+    background-size: 460px auto;
+}
+
+#footer address em {
+    font: 11px Verdana;
+    padding-left: 4px;
+}
+
+#footer address .corp{
+    font: bold 11px Verdana;
+    padding-left: 4px;
+}
+
+#footer address span {
+    font: 11px Verdana;
+    padding-left: 4px;
+}
