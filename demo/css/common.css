@@ -1,0 +1,276 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+div {
+    display: block;
+}
+
+
+/* 네비바 */
+#nav {
+    width: 100%;
+    color: black;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    z-index: 99999;
+    box-shadow: 0 2px 5px 0 rgb(172, 172, 172);
+    letter-spacing: 4px;
+    top: 0;
+    left: 0;
+}
+
+#nav .left {
+    float: left;
+    width: 300px;
+    height: 100%;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: black;
+    margin-left: -40px;
+}
+
+#nav .menu {
+    float: right;
+    line-height: 60px;
+    margin-right: 15px;
+}
+
+#nav .menu a {
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 메인 이미지 */
+.display {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+#main .center {
+    margin-top: 16px !important;
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 4px;
+}
+
+#main .center .text {
+    color: #fff;
+    font-size: 36px;
+}
+
+#main .center .text b{
+    background-color: #000;
+    padding: 8px 16px;
+    opacity: 0.75;
+}
+
+h1 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+
+/* 내용 */
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.title {
+    padding: 0.01em 30px ;
+    /* 16px */
+}
+
+
+/* projects */
+#content .title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.line {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    font-size: 24px;
+}
+
+#content .section {
+    padding: 0px 8px;
+}
+
+#content .section .topleft {
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#content .section .img img {
+    vertical-align: middle;
+    border-style: none;
+    margin: 0px 0px 16px;
+    width: 100%;
+}
+
+.section:before, .section:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#content .img {
+    width: 22.99999%;
+    float: left;
+    margin-left: 15px;
+}
+
+
+/* about */
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#content .box {
+    filter: grayscale(75%);
+}
+
+#content .box .img img {
+    vertical-align: middle;
+    border-style: none;
+    margin: 0px 0px 16px;
+    width: 100%;
+}
+
+h3 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#content .opacity {
+    opacity: 0.60;
+}
+
+#content .box .img button {
+    color: #000;
+    background-color: #f1f1f1;
+    display: block;
+    user-select: none;
+    border: none;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 17px;
+    padding: 8px 105px;
+    text-transform: none;
+}
+
+#content .box .img button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+
+
+
+/* contact */
+#content .title {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    padding: 0.01em 16px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+#content .title input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+
+#content .title button {
+    color: #fff;
+    background-color: #000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: navajowhite;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+
+/* image */
+#content .title .image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* footer */
+footer {
+    color: #fff;
+    background-color: #000;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+footer a {
+    color: inherit;
+    background-color: transparent;
+}
+
+footer a:hover {
+    color: rgb(9, 146, 9);
+}
