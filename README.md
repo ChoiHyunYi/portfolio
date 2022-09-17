@@ -18,7 +18,7 @@ yarn start
 
 ### \* Baskinrobbins
 
-- public 폴더에 위치한 data.json 서버 연동 필요
+- public 폴더에 위치한 data.json 연동 필요
 
 ```
 yarn install
